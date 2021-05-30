@@ -19,6 +19,6 @@ document.querySelector('.submitbutton').addEventListener('click',function(e){
 
 setInterval(()=>{
    if(localStorage.getItem('x-auth-token')){
-       window.location.href = "dashboard.html";
+       window.location.href = "API_Provider/dashboard.html";
    }
 },500);
