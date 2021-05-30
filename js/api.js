@@ -12,6 +12,6 @@ else{
 }
 setInterval(()=>{
     if(!localStorage.getItem('x-auth-token')){
-        window.location.href = "/login.html";
+        window.location.href = "login.html";
     }
  },500);
