@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+body{
+    font-family: sans-serif;
+}
+.header{
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    justify-content: space-around;
+    background-color: burlywood;
+    padding: 10px;
+}
+.header >span >a{
+    text-decoration: none;
+    color: teal;
+}
+.profile{
+    display: flex;
+    box-sizing: border-box;
+    width: 60%;
+    padding: 20px;
+    flex-direction: column;
+    margin: 20px auto;
+    background-color: bisque;
+}
+.profile >span{
+    margin-left: 10px;
+}

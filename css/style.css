@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: inline-block;
+  width: 100%;
+}
+.registration {
+  display: flex;
+  padding: 30px;
+  background-color: burlywood;
+}
+.registration > form {
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  border: 1px solid grey;
+  padding: 30px;
+}
+.registration > form > label,
+.registration > form > input {
+  margin-bottom: 10px;
+}
