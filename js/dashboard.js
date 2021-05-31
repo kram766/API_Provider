@@ -13,6 +13,11 @@ if(localStorage.getItem('x-auth-token')){
 else{
     window.location.href="/login.html";
 }
+document.querySelector('.Logout').addEventListener('click',function(){
+    if(localStorage.getItem('x-auth-token')){
+        localStorage.removeItem('x-auth-token');
+    }
+})
 setInterval(()=>{
     if(!localStorage.getItem('x-auth-token')){
         window.location.href = "login.html";
