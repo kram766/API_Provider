@@ -8,8 +8,13 @@
 }
 .registration {
   display: flex;
+  flex-direction: column;
   padding: 30px;
+  font-family: sans-serif;
   background-color: burlywood;
+}
+.registration > h1 {
+  text-align: center;
 }
 .registration > form {
   display: flex;
@@ -21,4 +26,12 @@
 .registration > form > label,
 .registration > form > input {
   margin-bottom: 10px;
+}
+.registration > form > a {
+  display: inline-block;
+  margin: 10px 0px;
+  text-decoration: none;
+}
+.registration > form > a:hover {
+  text-decoration: underline;
 }
